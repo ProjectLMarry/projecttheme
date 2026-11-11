@@ -1,0 +1,23 @@
+/*
+ * Constants
+ *
+ * Keep colors and reusable theme values here.
+ */
+:root {
+  --theme-color-primary: rgb(178, 131, 26);
+  --theme-color-body: #1f2020;
+  --theme-color-secondary: rgb(103, 18, 31);
+  --theme-color-accent: rgb(255,255,255);
+  --theme-color-accent-2: #E2C88F;
+  --theme-transition: all 0.3s ease-in-out;
+
+
+--theme-font-body: 'Blinker', Arial, sans-serif;
+--theme-font-body2: 'Antonio', Arial, sans-serif;
+--theme-font-family-header: 'StalinistOne', Arial, sans-serif;
+--theme-font-family-header2: 'BBHBartle', Arial, sans-serif;
+--theme-font-family-headerComp: 'AntonSC', Arial, sans-serif;
+
+--theme-font-family-header3: 'BBHBogle', Arial, sans-serif; /* Announcments per month*/
+
+}
