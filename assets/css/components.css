@@ -40,3 +40,41 @@
 .projecttheme-image-slider .carousel-item img {
   object-fit: cover;
 }
+
+/*** Program Content October ***/
+
+.program_content_october {
+  background-color: var(--theme-color-primary);
+  color: var(--theme-color-secondary);
+}
+
+.program-content-october__title {
+  color: var(--theme-color-secondary);
+  font-family: var(--theme-font-body2);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.program-content-october__items {
+  font-family: var(--theme-font-body2);
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  line-height: 1.35;
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.program-content-october__items li {
+  padding-left: 0.25rem;
+}
+
+.program-content-october__date {
+  margin-right: 0.4rem;
+}
+
+.program-content-october__image {
+  max-height: 18rem;
+  object-fit: contain;
+}
