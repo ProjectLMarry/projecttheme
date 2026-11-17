@@ -83,6 +83,9 @@ while (have_rows('page_modules')) : the_row();
 
     case 'program_content_october':
       get_template_part('template-parts/flex/layout', 'program-content-october'); break;
+
+    case 'about_section':
+      get_template_part('template-parts/flex/layout', 'about-section'); break;
   }
 
   if (function_exists('section_close')) {

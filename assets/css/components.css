@@ -78,3 +78,40 @@
   max-height: 18rem;
   object-fit: contain;
 }
+
+/*** About Section ***/
+
+.about_section {
+  background-color: #000;
+  color: var(--theme-color-accent);
+  text-align: center;
+}
+
+.about-section__inner {
+  margin: 0 auto;
+  max-width: 52rem;
+}
+
+.about-section__title {
+  color: var(--theme-color-primary);
+  font-family: var(--theme-font-family-headerComp);
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.about-section__intro {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.about-section__text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.about-section__text p:last-child {
+  margin-bottom: 0;
+}
